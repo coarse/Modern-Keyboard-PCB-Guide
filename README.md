@@ -46,9 +46,31 @@ This is, in general, is a symbol. The `U?` is the reference field for the symbol
 
 For now, let's change the reference field to something unique. Hover over `U?`, press `E`, and then change `U?` to `U1` and click `OK`.
 
-##### Power Flags
+`NOTE`: Since this guide uses an STM32 chip, specifically an STM32 chip with crystal-less USB, there are components that are not required such as terminating resistors or an external crystal. Because of that, you may want to check out the [catalog] and check out the other guides there.
 
-Before you move on with the other components, it is important you know how to use power flags. Power flags makes wiring power and ground easier by using symbols instead of tracing everything
+##### Eeschema Basics
+
+Before you move on with the other components, it is important to at least know how to make your way around `Eeschema`. Here is a cheat sheet you can use:
+
+```
+A: Add symbol
+P: Add power flag
+Q: Add no connect flag
+H: Add label
+Ctrl+H: Add global label
+W: Begin wire
+
+Del: Delete highlighted item/symbol
+Esc: Cancel action
+
+M: Move highlighted item
+G: Move symbol while keeping wires attached
+E: Edit highlighted item
+
+R: Rotate highlighted item
+X: Flip symbol along the X-axis
+Y: Flip symbol along the Y-axis
+```
 
 ##### Decoupling Capacitors
 
@@ -70,11 +92,15 @@ Add two tact switches (`keyboard_parts > SW_PUSH`) and a resistor (`keyboard_par
 
 The BOOT0 button is required for you to be able to enter DFU mode without using software. During startup or power reset, the STM32 chip checks if BOOT0 is high/connected to VCC. If it is, then STM32 enters DFU mode instead of going to user code.
 
-##### USB Circuit
+##### USB
 
-For this guide, I will be using a USB mini B connector.
+For this guide, I will be using a USB mini B connector. For USB C, refer to [this] guide.
 
-Add
+Add a USB symbol (`keyboards_parts > USB_mini_micro_B`) and press `Q` to add a no connection flag to ID.
+
+Because we use an STM32F0x2 chip, we do not need any terminating resistor
+
+
 
 ### Resources
 
@@ -92,3 +118,7 @@ Add
   * [ai03's Parts](https://github.com/ai03-2725/Voyager65/tree/master/locallib.pretty) - awesome mounting hole footprint
   * [Nexperia](https://github.com/coarse/Nexperia/tree/master/nexperia.pretty) - SOT143B footprint for PRTR5V0U2X,215
   * [USB Type C](https://github.com/ai03-2725/Type-C.pretty/tree/master)
+
+#### Other Guides
+  * [Ruiqimao's Keyboard PCB Guide](https://github.com/ruiqimao/keyboard-pcb-guide#schematics)
+  * [ai03's Wiki](https://kbwiki.ai03.me/)
