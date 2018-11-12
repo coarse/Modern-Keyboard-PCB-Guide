@@ -1,4 +1,4 @@
-# Peioris' Keyboard PCB Tutorial
+# Keyboard Firmwares    
 
 # Table of Contents <!-- omit in toc -->
 
@@ -13,7 +13,7 @@ This tutorial aims to equip you, the reader, with knowledge on making a minimal 
 Here is a list of things that you should download and install (if applicable):
 
 - [KiCAD](http://kicad-pcb.org/)
-- Component and Footprint Libraries
+- [Component and Footprint Libraries](https://github.com/coarse/Modern-Keyboard-PCB-Guide#resources)
     - to make things streamlined, I've decided to compile all libraries I used for this guide [here]()
 - Microsoft Excel, OpenOffice Calc, or Google Spreadsheet
 
