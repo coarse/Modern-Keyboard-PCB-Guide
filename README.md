@@ -12,11 +12,11 @@ Frustrated from the lack of documentation available on the internet, I decided t
 * [Firmware](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/Firmware.md)
 * [Split Keyboards](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/Split.md)
 * [Wireless Connectivity](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/Wireless.md)
-* USB Ports
+* [USB Ports](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/USB/main.md)
     * [USB Mini](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/USB/Mini.md)
     * [USB Micro](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/USB/Micro.md)
     * [USB C](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/USB/C.md)
-* Backlight
+* [Backlight](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/Backlight/Main.md)
     * [Simple](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/Backlight/Simple.md)
     * [Addressable](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/Addressable.md)
           * [Smart LED](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/Addressable.md)
