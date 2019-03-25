@@ -10,6 +10,7 @@ Frustrated from the lack of documentation available on the internet, I decided t
 
 * [Tutorial](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/Tutorial.md)  
 * [Firmware](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/Firmware.md)  
+* [KiCad Advanced Techniques](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/KiCad-Advanced.md)  
 * [Split Keyboards](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/Split.md)  
 * [Wireless Connectivity](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/Wireless.md)  
 * [USB Ports](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/USB/main.md)  
