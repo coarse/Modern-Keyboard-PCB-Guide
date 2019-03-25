@@ -2,7 +2,7 @@
 
 ## Introduction <!-- omit in toc -->
 
-Frustrated from the lack of documentation available on the internet, I decided to make my own keyboard PCB making guide with updated resources. Aside from the main tutorial aimed for people who are starting out, there will also be guides on other parts or components of a keyboard PCB such as USB-C, TRRS conectors, backlighting, RGB, etc.
+Frustrated from the lack of documentation available on the internet, I decided to make my own keyboard PCB making guide with updated resources. The main tutorial aims to teach how to make an ARM keyboard PCB using KiCad to those who are new to PCB design. Aside from the main tutorial, there will also be guides on other components of a keyboard PCB such as USB-C, TRRS conectors, backlighting, RGB, etc.
 
 ---
 
@@ -10,46 +10,26 @@ Frustrated from the lack of documentation available on the internet, I decided t
 
 * [Tutorial](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/Tutorial.md)
 * [Firmware](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/Firmware.md)
-* Split Keyboards
-* Wireless Connectivity
-* USB C
+* [Split Keyboards](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/Split.md)
+* [Wireless Connectivity](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/Wireless.md)
+* USB Ports
+    * [USB Mini](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/USB/Mini.md)
+    * [USB Micro](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/USB/Micro.md)
+    * [USB C](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/USB/C.md)
 * Backlight
-    * Single Color
-    * RGB
-* Underglow
-* Audio/Speakers
-* Rotary Encoders
+    * [Simple](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/Backlight/Simple.md)
+    * [Addressable](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/Addressable.md)
+          * [Smart LED](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/Addressable.md)
+          * [Driver-controlled](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/Addressable.md)
+* [Underglow](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/Underglow.md)
+* [Audio](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/Audio.md)
+* [Rotary Encoders](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/Encoders.md)
+* [OLED](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/OLED.md)
+* [KiCad Resources](https://github.com/coarse/Modern-Keyboard-PCB-Guide/blob/master/Kicad-Resources.md)
 
 ---
 
-## Resources
-
-### Libraries
-  * Hasu's Keyboard Parts 
-    * Notable symbols: `ATmega32U4, ATmega32U2, Capacitor, Diode, Resettable Fuse, Resistor, RN42, Solder Jumper, Push Switch, Teensy 2.0/++, USB A/B/Micro/Mini`
-    * [Symbols](https://github.com/tmk/kicad_lib_tmk), [Footprints](https://github.com/tmk/keyboard_parts.pretty/tree/master)
-  * ai03's Keyboard Switch Library
-    * Notable symbols: `Keyboard Switch with LED`
-    * Notable footprints: `MX Switches, MX Switches with LED, MX/Alps Hybrid`
-    * [Symbols](https://github.com/ai03-2725/MX_Alps_Hybrid.pretty/tree/master/Schematic%20Library), [Footprints](https://github.com/ai03-2725/MX_Alps_Hybrid.pretty/tree/master)
-  * ai03's locallib
-    * Notable symbols: `IS31FL3731, IS31FL3733, nRF24L01+, PRTR5V0U2X, STF202`
-    * [Symbols](https://github.com/ai03-2725/Voyager97/tree/master/locallib.pretty/schema), [Footprints](https://github.com/ai03-2725/Voyager97/tree/master/locallib.pretty)
-  * keebio's Library
-    * Notable symbols: `Elite-C, USB C HRO, NUF2221W1T2G, TRRS`
-    * Notable footprints: ``
-    * [Symbols](https://github.com/keebio/keebio-components/tree/master), [Footprints](https://github.com/keebio/Keebio-Parts.pretty/tree/master)
-  * WS2812B LED
-    * [Symbols](https://github.com/madworm/WS2812B.pretty/tree/falkartis-symbol/Schematic-Symbol), [Footprints](https://github.com/madworm/WS2812B.pretty/tree/falkartis-symbol)
-  * USB Type C
-    * [Footprints](https://github.com/ai03-2725/Type-C.pretty/tree/master)
-  * Official KiCAD Library
-    * [Symbols](https://kicad.github.io/symbols/), [Footprints](https://kicad.github.io/footprints/)
-
-### Component Libraries
-  * [Pro Micro](https://github.com/keebio/keebio-components/tree/master)
-  * [USB Type C](https://github.com/ai03-2725/Type-C.pretty/tree/master)
-
-### Other Resources
+## References
   * [Ruiqimao's Keyboard PCB Guide](https://github.com/ruiqimao/keyboard-pcb-guide#schematics)
   * [ai03's Wiki](https://kbwiki.ai03.me/)
+  * [ai03's PCB Designer Guide](https://kbwiki.ai03.me/books/pcb-design/chapter/pcb-designer-guide)
